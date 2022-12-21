@@ -6,7 +6,7 @@ const Accordion = ({ title, content }) => {
   const [isActive, setIsActive] = useState(false);
 
   return (
-    <div className="accordion-item ">
+    <div className="accordion-item w-full">
       <div
         className="accordion__title flex px-8 py-5 bg-gray-100 border-white/50"
         onClick={() => {

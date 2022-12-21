@@ -17,7 +17,7 @@ const Testimonials = () => {
           cursus vestibulum, facilisi ac, sed faucibus.
         </p>
       </div>
-      <div className="feedbacks flex flex-col md:flex-row gap-8">
+      <div className="feedbacks flex flex-col justify-center sm:w-full md:flex-row gap-8">
         <FeedbackCard />
         <FeedbackCard />
       </div>

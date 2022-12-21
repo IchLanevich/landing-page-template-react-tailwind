@@ -9,7 +9,7 @@ const FAQ = () => {
       id="faq"
       className={`${styles.sectionPaddingY} ${styles.sectionPaddingX} flex flex-col justify-center items-center`}
     >
-      <div className="services-headline max-w-[590px]">
+      <div className="services-headline w-full md:max-w-[590px]">
         <h2 className={`${styles.heading} mb-4 text-center`}>
           Suspendisse vitae pharetra netus
         </h2>
@@ -18,7 +18,7 @@ const FAQ = () => {
           cursus vestibulum, facilisi ac, sed faucibus.
         </p>
       </div>
-      <div className="accordion h-full w-1/2 border mt-20 border-gray-200">
+      <div className="accordion w-full h-full md:w-1/2 border mt-20 border-gray-200">
         {accordionData.map((data, index) => {
           return (
             <Accordion key={index} title={data.title} content={data.content} />
